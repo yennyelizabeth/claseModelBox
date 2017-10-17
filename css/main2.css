@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+#title {
+    text-align: center;
+    width: 300px ;
+    padding: 8px ;
+    border: 1px solid blue ;
+    margin: 16px ;
+    box-sizing: border-box;
+}
+
+/* width total = 300px + 8px + 8px + 1px + 1px +16px +16px */
+
+div {
+    width: 200px;
+    border: 1px solid red;
+    display: inline;
+}
+
+.enlaces:hover {
+    text-decoration: none;
+    border: 1px solid blue;
+    margin-left: 4px;
+    width:16px;
+
+}
+
+/*
+#subtitle {
+    text-align: center;
+    width: 300px ;
+    padding: 8px ;
+    border: 1px solid blue ;
+    margin: 16px ;
+}
+*/
